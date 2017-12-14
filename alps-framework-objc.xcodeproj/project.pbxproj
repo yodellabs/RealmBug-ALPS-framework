@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25033DFE721FBFC145CFDB2A /* Pods_alps_framework_objcTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D53E804C7CB8847BFBF289D8 /* Pods_alps_framework_objcTests.framework */; };
+		5A35F2DFB6D58405B2F9E999 /* Pods_alps_framework_objc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60F4150A4D04077FF2D19BBC /* Pods_alps_framework_objc.framework */; };
+		5B320FFB1FA8E2410087497B /* ALPSGridSolverTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B320FFA1FA8E2410087497B /* ALPSGridSolverTest.m */; };
+		5B96867F1F8BCB5F007BEF24 /* ALPS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B9686751F8BCB5F007BEF24 /* ALPS.framework */; };
+		5B9686841F8BCB5F007BEF24 /* alps_framework_objcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9686831F8BCB5F007BEF24 /* alps_framework_objcTests.m */; };
+		5B9686861F8BCB5F007BEF24 /* ALPS.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B9686781F8BCB5F007BEF24 /* ALPS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BA4D5F81FCDB5FF008C2650 /* ALPSStoredContour.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA4D5F61FCDB5FF008C2650 /* ALPSStoredContour.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BA4D5F91FCDB5FF008C2650 /* ALPSStoredContour.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA4D5F71FCDB5FF008C2650 /* ALPSStoredContour.m */; };
+		5BA4D6081FCDDD94008C2650 /* ALPSStoredContourPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA4D6061FCDDD94008C2650 /* ALPSStoredContourPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BA4D6091FCDDD94008C2650 /* ALPSStoredContourPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA4D6071FCDDD94008C2650 /* ALPSStoredContourPoint.m */; };
+		5BAA82281FB259E4004DBCCA /* ALPSStoredGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BAA82261FB259E4004DBCCA /* ALPSStoredGrid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BAA82291FB259E4004DBCCA /* ALPSStoredGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAA82271FB259E4004DBCCA /* ALPSStoredGrid.m */; };
+		5BAA823B1FB3A004004DBCCA /* ALPSStoredZone.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BAA82211FB254DD004DBCCA /* ALPSStoredZone.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BAA823C1FB3A007004DBCCA /* ALPSStoredBeacon.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BAA82251FB254DE004DBCCA /* ALPSStoredBeacon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BAA82411FB3A11D004DBCCA /* ALPSStoredZone.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAA82241FB254DD004DBCCA /* ALPSStoredZone.m */; };
+		5BAA82421FB3A11F004DBCCA /* ALPSStoredBeacon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAA82231FB254DD004DBCCA /* ALPSStoredBeacon.m */; };
+		5BEAE5461F8BD0FC00812B0F /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BEAE5451F8BD0FC00812B0F /* CoreAudio.framework */; };
+		5BEAE5481F8BD11300812B0F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BEAE5471F8BD11200812B0F /* AudioToolbox.framework */; };
+		5BEAE54A1F8BD13B00812B0F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BEAE5491F8BD13A00812B0F /* AVFoundation.framework */; };
+		5BEAE54C1F8BD14000812B0F /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BEAE54B1F8BD14000812B0F /* CoreBluetooth.framework */; };
+		5BEAE5601F8D3AAF00812B0F /* NSString+NSDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BEAE55E1F8D3AAF00812B0F /* NSString+NSDictionary.h */; };
+		5BEAE5611F8D3AAF00812B0F /* NSString+NSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEAE55F1F8D3AAF00812B0F /* NSString+NSDictionary.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B9686801F8BCB5F007BEF24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B96866C1F8BCB5F007BEF24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B9686741F8BCB5F007BEF24;
+			remoteInfo = "alps-framework-objc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B52C92F5F1BB511A85AF099 /* Pods-alps-framework-objc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alps-framework-objc.release.xcconfig"; path = "Pods/Target Support Files/Pods-alps-framework-objc/Pods-alps-framework-objc.release.xcconfig"; sourceTree = "<group>"; };
+		5B320FFA1FA8E2410087497B /* ALPSGridSolverTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALPSGridSolverTest.m; sourceTree = "<group>"; };
+		5B9686751F8BCB5F007BEF24 /* ALPS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ALPS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B9686781F8BCB5F007BEF24 /* ALPS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALPS.h; sourceTree = "<group>"; };
+		5B9686791F8BCB5F007BEF24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B96867E1F8BCB5F007BEF24 /* alps-framework-objcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "alps-framework-objcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B9686831F8BCB5F007BEF24 /* alps_framework_objcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = alps_framework_objcTests.m; sourceTree = "<group>"; };
+		5B9686851F8BCB5F007BEF24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA4D5F61FCDB5FF008C2650 /* ALPSStoredContour.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALPSStoredContour.h; sourceTree = "<group>"; };
+		5BA4D5F71FCDB5FF008C2650 /* ALPSStoredContour.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALPSStoredContour.m; sourceTree = "<group>"; };
+		5BA4D6061FCDDD94008C2650 /* ALPSStoredContourPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALPSStoredContourPoint.h; sourceTree = "<group>"; };
+		5BA4D6071FCDDD94008C2650 /* ALPSStoredContourPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALPSStoredContourPoint.m; sourceTree = "<group>"; };
+		5BAA82211FB254DD004DBCCA /* ALPSStoredZone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALPSStoredZone.h; sourceTree = "<group>"; };
+		5BAA82231FB254DD004DBCCA /* ALPSStoredBeacon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALPSStoredBeacon.m; sourceTree = "<group>"; };
+		5BAA82241FB254DD004DBCCA /* ALPSStoredZone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALPSStoredZone.m; sourceTree = "<group>"; };
+		5BAA82251FB254DE004DBCCA /* ALPSStoredBeacon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALPSStoredBeacon.h; sourceTree = "<group>"; };
+		5BAA82261FB259E4004DBCCA /* ALPSStoredGrid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALPSStoredGrid.h; sourceTree = "<group>"; };
+		5BAA82271FB259E4004DBCCA /* ALPSStoredGrid.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALPSStoredGrid.m; sourceTree = "<group>"; };
+		5BEAE5451F8BD0FC00812B0F /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		5BEAE5471F8BD11200812B0F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5BEAE5491F8BD13A00812B0F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5BEAE54B1F8BD14000812B0F /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		5BEAE55E1F8D3AAF00812B0F /* NSString+NSDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+NSDictionary.h"; sourceTree = "<group>"; };
+		5BEAE55F1F8D3AAF00812B0F /* NSString+NSDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSDictionary.m"; sourceTree = "<group>"; };
+		60F4150A4D04077FF2D19BBC /* Pods_alps_framework_objc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_alps_framework_objc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D53E804C7CB8847BFBF289D8 /* Pods_alps_framework_objcTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_alps_framework_objcTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F648AC93628F2D2D821D9178 /* Pods-alps-framework-objc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alps-framework-objc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-alps-framework-objc/Pods-alps-framework-objc.debug.xcconfig"; sourceTree = "<group>"; };
+		F92DA5345091F5EB9D32E879 /* Pods-alps-framework-objcTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alps-framework-objcTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-alps-framework-objcTests/Pods-alps-framework-objcTests.release.xcconfig"; sourceTree = "<group>"; };
+		F938F78B06A984C91BEB37CD /* Pods-alps-framework-objcTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alps-framework-objcTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-alps-framework-objcTests/Pods-alps-framework-objcTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B9686711F8BCB5F007BEF24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BEAE54C1F8BD14000812B0F /* CoreBluetooth.framework in Frameworks */,
+				5BEAE54A1F8BD13B00812B0F /* AVFoundation.framework in Frameworks */,
+				5BEAE5481F8BD11300812B0F /* AudioToolbox.framework in Frameworks */,
+				5BEAE5461F8BD0FC00812B0F /* CoreAudio.framework in Frameworks */,
+				5A35F2DFB6D58405B2F9E999 /* Pods_alps_framework_objc.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B96867B1F8BCB5F007BEF24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B96867F1F8BCB5F007BEF24 /* ALPS.framework in Frameworks */,
+				25033DFE721FBFC145CFDB2A /* Pods_alps_framework_objcTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DA20219DF1C4EA4E2B2037D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BEAE54B1F8BD14000812B0F /* CoreBluetooth.framework */,
+				5BEAE5491F8BD13A00812B0F /* AVFoundation.framework */,
+				5BEAE5471F8BD11200812B0F /* AudioToolbox.framework */,
+				5BEAE5451F8BD0FC00812B0F /* CoreAudio.framework */,
+				60F4150A4D04077FF2D19BBC /* Pods_alps_framework_objc.framework */,
+				D53E804C7CB8847BFBF289D8 /* Pods_alps_framework_objcTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A2EB79F15B7B4957C1C6DB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F648AC93628F2D2D821D9178 /* Pods-alps-framework-objc.debug.xcconfig */,
+				3B52C92F5F1BB511A85AF099 /* Pods-alps-framework-objc.release.xcconfig */,
+				F938F78B06A984C91BEB37CD /* Pods-alps-framework-objcTests.debug.xcconfig */,
+				F92DA5345091F5EB9D32E879 /* Pods-alps-framework-objcTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5B96866B1F8BCB5F007BEF24 = {
+			isa = PBXGroup;
+			children = (
+				5B9686771F8BCB5F007BEF24 /* alps-framework-objc */,
+				5B9686821F8BCB5F007BEF24 /* alps-framework-objcTests */,
+				5B9686761F8BCB5F007BEF24 /* Products */,
+				5A2EB79F15B7B4957C1C6DB6 /* Pods */,
+				3DA20219DF1C4EA4E2B2037D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5B9686761F8BCB5F007BEF24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B9686751F8BCB5F007BEF24 /* ALPS.framework */,
+				5B96867E1F8BCB5F007BEF24 /* alps-framework-objcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B9686771F8BCB5F007BEF24 /* alps-framework-objc */ = {
+			isa = PBXGroup;
+			children = (
+				5B9686781F8BCB5F007BEF24 /* ALPS.h */,
+				5B9686A41F8BCDF3007BEF24 /* Location */,
+				5BEAE55D1F8D324F00812B0F /* Catagories */,
+				5B9686791F8BCB5F007BEF24 /* Info.plist */,
+			);
+			path = "alps-framework-objc";
+			sourceTree = "<group>";
+		};
+		5B9686821F8BCB5F007BEF24 /* alps-framework-objcTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B320FFA1FA8E2410087497B /* ALPSGridSolverTest.m */,
+				5B9686831F8BCB5F007BEF24 /* alps_framework_objcTests.m */,
+				5B9686851F8BCB5F007BEF24 /* Info.plist */,
+			);
+			path = "alps-framework-objcTests";
+			sourceTree = "<group>";
+		};
+		5B9686A41F8BCDF3007BEF24 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				5BAA821F1FB254C2004DBCCA /* StoredData */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		5BAA821F1FB254C2004DBCCA /* StoredData */ = {
+			isa = PBXGroup;
+			children = (
+				5BD3216C1FB90CCD00A14E6D /* SolverData */,
+			);
+			path = StoredData;
+			sourceTree = "<group>";
+		};
+		5BD3216C1FB90CCD00A14E6D /* SolverData */ = {
+			isa = PBXGroup;
+			children = (
+				5BAA82261FB259E4004DBCCA /* ALPSStoredGrid.h */,
+				5BAA82271FB259E4004DBCCA /* ALPSStoredGrid.m */,
+				5BA4D5F61FCDB5FF008C2650 /* ALPSStoredContour.h */,
+				5BA4D5F71FCDB5FF008C2650 /* ALPSStoredContour.m */,
+				5BA4D6061FCDDD94008C2650 /* ALPSStoredContourPoint.h */,
+				5BA4D6071FCDDD94008C2650 /* ALPSStoredContourPoint.m */,
+				5BAA82211FB254DD004DBCCA /* ALPSStoredZone.h */,
+				5BAA82241FB254DD004DBCCA /* ALPSStoredZone.m */,
+				5BAA82251FB254DE004DBCCA /* ALPSStoredBeacon.h */,
+				5BAA82231FB254DD004DBCCA /* ALPSStoredBeacon.m */,
+			);
+			path = SolverData;
+			sourceTree = "<group>";
+		};
+		5BEAE55D1F8D324F00812B0F /* Catagories */ = {
+			isa = PBXGroup;
+			children = (
+				5BEAE55E1F8D3AAF00812B0F /* NSString+NSDictionary.h */,
+				5BEAE55F1F8D3AAF00812B0F /* NSString+NSDictionary.m */,
+			);
+			path = Catagories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5B9686721F8BCB5F007BEF24 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B9686861F8BCB5F007BEF24 /* ALPS.h in Headers */,
+				5BA4D5F81FCDB5FF008C2650 /* ALPSStoredContour.h in Headers */,
+				5BAA82281FB259E4004DBCCA /* ALPSStoredGrid.h in Headers */,
+				5BA4D6081FCDDD94008C2650 /* ALPSStoredContourPoint.h in Headers */,
+				5BAA823B1FB3A004004DBCCA /* ALPSStoredZone.h in Headers */,
+				5BAA823C1FB3A007004DBCCA /* ALPSStoredBeacon.h in Headers */,
+				5BEAE5601F8D3AAF00812B0F /* NSString+NSDictionary.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5B9686741F8BCB5F007BEF24 /* alps-framework-objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B9686891F8BCB5F007BEF24 /* Build configuration list for PBXNativeTarget "alps-framework-objc" */;
+			buildPhases = (
+				F35F1B957BB8F41E173381AF /* [CP] Check Pods Manifest.lock */,
+				5B9686701F8BCB5F007BEF24 /* Sources */,
+				5B9686711F8BCB5F007BEF24 /* Frameworks */,
+				5B9686721F8BCB5F007BEF24 /* Headers */,
+				5B9686731F8BCB5F007BEF24 /* Resources */,
+				E9BA0009764A419815CF1268 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "alps-framework-objc";
+			productName = "alps-framework-objc";
+			productReference = 5B9686751F8BCB5F007BEF24 /* ALPS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5B96867D1F8BCB5F007BEF24 /* alps-framework-objcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B96868C1F8BCB5F007BEF24 /* Build configuration list for PBXNativeTarget "alps-framework-objcTests" */;
+			buildPhases = (
+				5F16F86ED58A2CECF0B58793 /* [CP] Check Pods Manifest.lock */,
+				5B96867A1F8BCB5F007BEF24 /* Sources */,
+				5B96867B1F8BCB5F007BEF24 /* Frameworks */,
+				5B96867C1F8BCB5F007BEF24 /* Resources */,
+				AB58D0C28CA7CA2500ADF83D /* [CP] Embed Pods Frameworks */,
+				B6F77C6F2756E577147C2537 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B9686811F8BCB5F007BEF24 /* PBXTargetDependency */,
+			);
+			name = "alps-framework-objcTests";
+			productName = "alps-framework-objcTests";
+			productReference = 5B96867E1F8BCB5F007BEF24 /* alps-framework-objcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B96866C1F8BCB5F007BEF24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ALPS;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Yodel Labs";
+				TargetAttributes = {
+					5B9686741F8BCB5F007BEF24 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					5B96867D1F8BCB5F007BEF24 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5B96866F1F8BCB5F007BEF24 /* Build configuration list for PBXProject "alps-framework-objc" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B96866B1F8BCB5F007BEF24;
+			productRefGroup = 5B9686761F8BCB5F007BEF24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B9686741F8BCB5F007BEF24 /* alps-framework-objc */,
+				5B96867D1F8BCB5F007BEF24 /* alps-framework-objcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B9686731F8BCB5F007BEF24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B96867C1F8BCB5F007BEF24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F16F86ED58A2CECF0B58793 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AB58D0C28CA7CA2500ADF83D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-alps-framework-objcTests/Pods-alps-framework-objcTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6F77C6F2756E577147C2537 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-alps-framework-objcTests/Pods-alps-framework-objcTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9BA0009764A419815CF1268 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-alps-framework-objc/Pods-alps-framework-objc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F35F1B957BB8F41E173381AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B9686701F8BCB5F007BEF24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA4D5F91FCDB5FF008C2650 /* ALPSStoredContour.m in Sources */,
+				5BEAE5611F8D3AAF00812B0F /* NSString+NSDictionary.m in Sources */,
+				5BA4D6091FCDDD94008C2650 /* ALPSStoredContourPoint.m in Sources */,
+				5BAA82291FB259E4004DBCCA /* ALPSStoredGrid.m in Sources */,
+				5BAA82411FB3A11D004DBCCA /* ALPSStoredZone.m in Sources */,
+				5BAA82421FB3A11F004DBCCA /* ALPSStoredBeacon.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B96867A1F8BCB5F007BEF24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B320FFB1FA8E2410087497B /* ALPSGridSolverTest.m in Sources */,
+				5B9686841F8BCB5F007BEF24 /* alps_framework_objcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B9686811F8BCB5F007BEF24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B9686741F8BCB5F007BEF24 /* alps-framework-objc */;
+			targetProxy = 5B9686801F8BCB5F007BEF24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5B9686871F8BCB5F007BEF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B9686881F8BCB5F007BEF24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B96868A1F8BCB5F007BEF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F648AC93628F2D2D821D9178 /* Pods-alps-framework-objc.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 676K98BP57;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "alps-framework-objc/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yodellabs.alps-framework-objc";
+				PRODUCT_NAME = ALPS;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B96868B1F8BCB5F007BEF24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B52C92F5F1BB511A85AF099 /* Pods-alps-framework-objc.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 676K98BP57;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "alps-framework-objc/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yodellabs.alps-framework-objc";
+				PRODUCT_NAME = ALPS;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5B96868D1F8BCB5F007BEF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F938F78B06A984C91BEB37CD /* Pods-alps-framework-objcTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 676K98BP57;
+				INFOPLIST_FILE = "alps-framework-objcTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yodellabs.alps-framework-objcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B96868E1F8BCB5F007BEF24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F92DA5345091F5EB9D32E879 /* Pods-alps-framework-objcTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 676K98BP57;
+				INFOPLIST_FILE = "alps-framework-objcTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yodellabs.alps-framework-objcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B96866F1F8BCB5F007BEF24 /* Build configuration list for PBXProject "alps-framework-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B9686871F8BCB5F007BEF24 /* Debug */,
+				5B9686881F8BCB5F007BEF24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B9686891F8BCB5F007BEF24 /* Build configuration list for PBXNativeTarget "alps-framework-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B96868A1F8BCB5F007BEF24 /* Debug */,
+				5B96868B1F8BCB5F007BEF24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B96868C1F8BCB5F007BEF24 /* Build configuration list for PBXNativeTarget "alps-framework-objcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B96868D1F8BCB5F007BEF24 /* Debug */,
+				5B96868E1F8BCB5F007BEF24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B96866C1F8BCB5F007BEF24 /* Project object */;
+}
