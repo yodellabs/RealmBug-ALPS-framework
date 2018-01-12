@@ -22,12 +22,10 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import <Realm/Realm.h>
-//#import "ALPSStoredZone.h"
 #import "ALPSStoredBeacon.h"
 #import "ALPSStoredContour.h"
 
 RLM_ARRAY_TYPE(ALPSStoredBeacon)
-//RLM_ARRAY_TYPE(ALPSStoredZone)
 RLM_ARRAY_TYPE(ALPSStoredContour)
 
 
@@ -48,8 +46,6 @@ RLM_ARRAY_TYPE(ALPSStoredContour)
 
 @property NSData *_Nullable floorPlanImagePNGData;
 
-
-//@property RLMArray<ALPSStoredZone*><ALPSStoredZone> *_Nonnull zones;
 @property RLMArray<ALPSStoredBeacon*><ALPSStoredBeacon> *_Nonnull beacons;
 
 /* calculated properties */
@@ -57,7 +53,7 @@ RLM_ARRAY_TYPE(ALPSStoredContour)
 -(NSArray<NSArray<NSValue*>*>*_Nonnull)contourArrays;
 -(UIImage *_Nonnull)floorPlanImage;
 -(NSArray <ALPSStoredBeacon*>*_Nonnull)allBeacons;
-//-(NSArray <ALPSStoredZone*>*_Nonnull)allZones;
+
 
 
 @end

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A9CB0E41CD5543FB90384FF /* libPods-alps-framework-objcTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A31107ED76663E17E25B45 /* libPods-alps-framework-objcTests.a */; };
 		5B320FFB1FA8E2410087497B /* ALPSGridSolverTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B320FFA1FA8E2410087497B /* ALPSGridSolverTest.m */; };
 		5B96867F1F8BCB5F007BEF24 /* ALPS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B9686751F8BCB5F007BEF24 /* ALPS.framework */; };
 		5B9686841F8BCB5F007BEF24 /* alps_framework_objcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9686831F8BCB5F007BEF24 /* alps_framework_objcTests.m */; };
@@ -26,7 +25,8 @@
 		5BEAE54C1F8BD14000812B0F /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BEAE54B1F8BD14000812B0F /* CoreBluetooth.framework */; };
 		5BEAE5601F8D3AAF00812B0F /* NSString+NSDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BEAE55E1F8D3AAF00812B0F /* NSString+NSDictionary.h */; };
 		5BEAE5611F8D3AAF00812B0F /* NSString+NSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEAE55F1F8D3AAF00812B0F /* NSString+NSDictionary.m */; };
-		E78686A25715A7FBEC266741 /* libPods-alps-framework-objc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AECDCDCC4789D9B5A6613460 /* libPods-alps-framework-objc.a */; };
+		6E2DBCA9A3364AF637FEEB9F /* Pods_alps_framework_objc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF44622D56BE81E69114E19A /* Pods_alps_framework_objc.framework */; };
+		8EA4641876055973914D7D1E /* Pods_alps_framework_objcTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A24BB85E14727D66CD0E044 /* Pods_alps_framework_objcTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		3B52C92F5F1BB511A85AF099 /* Pods-alps-framework-objc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alps-framework-objc.release.xcconfig"; path = "Pods/Target Support Files/Pods-alps-framework-objc/Pods-alps-framework-objc.release.xcconfig"; sourceTree = "<group>"; };
+		4A24BB85E14727D66CD0E044 /* Pods_alps_framework_objcTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_alps_framework_objcTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B320FFA1FA8E2410087497B /* ALPSGridSolverTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALPSGridSolverTest.m; sourceTree = "<group>"; };
 		5B9686751F8BCB5F007BEF24 /* ALPS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ALPS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B9686781F8BCB5F007BEF24 /* ALPS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALPS.h; sourceTree = "<group>"; };
@@ -62,11 +63,10 @@
 		5BEAE54B1F8BD14000812B0F /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		5BEAE55E1F8D3AAF00812B0F /* NSString+NSDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+NSDictionary.h"; sourceTree = "<group>"; };
 		5BEAE55F1F8D3AAF00812B0F /* NSString+NSDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSDictionary.m"; sourceTree = "<group>"; };
-		75A31107ED76663E17E25B45 /* libPods-alps-framework-objcTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-alps-framework-objcTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AECDCDCC4789D9B5A6613460 /* libPods-alps-framework-objc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-alps-framework-objc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F648AC93628F2D2D821D9178 /* Pods-alps-framework-objc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alps-framework-objc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-alps-framework-objc/Pods-alps-framework-objc.debug.xcconfig"; sourceTree = "<group>"; };
 		F92DA5345091F5EB9D32E879 /* Pods-alps-framework-objcTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alps-framework-objcTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-alps-framework-objcTests/Pods-alps-framework-objcTests.release.xcconfig"; sourceTree = "<group>"; };
 		F938F78B06A984C91BEB37CD /* Pods-alps-framework-objcTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alps-framework-objcTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-alps-framework-objcTests/Pods-alps-framework-objcTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF44622D56BE81E69114E19A /* Pods_alps_framework_objc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_alps_framework_objc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 				5BEAE54A1F8BD13B00812B0F /* AVFoundation.framework in Frameworks */,
 				5BEAE5481F8BD11300812B0F /* AudioToolbox.framework in Frameworks */,
 				5BEAE5461F8BD0FC00812B0F /* CoreAudio.framework in Frameworks */,
-				E78686A25715A7FBEC266741 /* libPods-alps-framework-objc.a in Frameworks */,
+				6E2DBCA9A3364AF637FEEB9F /* Pods_alps_framework_objc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +87,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B96867F1F8BCB5F007BEF24 /* ALPS.framework in Frameworks */,
-				2A9CB0E41CD5543FB90384FF /* libPods-alps-framework-objcTests.a in Frameworks */,
+				8EA4641876055973914D7D1E /* Pods_alps_framework_objcTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,8 +101,8 @@
 				5BEAE5491F8BD13A00812B0F /* AVFoundation.framework */,
 				5BEAE5471F8BD11200812B0F /* AudioToolbox.framework */,
 				5BEAE5451F8BD0FC00812B0F /* CoreAudio.framework */,
-				AECDCDCC4789D9B5A6613460 /* libPods-alps-framework-objc.a */,
-				75A31107ED76663E17E25B45 /* libPods-alps-framework-objcTests.a */,
+				FF44622D56BE81E69114E19A /* Pods_alps_framework_objc.framework */,
+				4A24BB85E14727D66CD0E044 /* Pods_alps_framework_objcTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
